@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ここから書く */
+body {
+  color: white;
+}
+.box {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.blue {
+  background-color: #141f40;
+  height: 100px;
+  width: 400px;
+}
+
+.green {
+  background-color: #80bfa8;
+  width: 150px;
+  height: 250px;
+  float: left;
+}
+
+.red {
+  background-color: #8c2727;
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.orange {
+  background-color: #d98d30;
+  height: 100px;
+  width: 400px;
+  clear: both;
+}
