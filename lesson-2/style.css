@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ここから書く */
+
+body {
+  color: white;
+}
+
+.main-box {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.blue {
+  background-color: #141f40;
+  height: 100px;
+  width: 400px;
+}
+
+.green {
+  background-color: #80bfa8;
+  width: 150px;
+  height: 250px;
+  float: left;
+}
+
+.right-box {
+  width: 250px;
+  float: left;
+}
+
+.left {
+  width: 150px;
+  float: left;
+}
+
+.yellow {
+  background-color: #dbd400;
+  height: 50px;
+}
+
+.lightblue {
+  background-color: #0093b7;
+  height: 100px;
+}
+
+.peach {
+  background-color: #ff9e6b;
+  width: 100px;
+  height: 150px;
+  float: left;
+}
+
+.red {
+  background-color: #8c2727;
+  height: 100px;
+}
+
+.orange {
+  background-color: #d98d30;
+  height: 100px;
+}
