@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* ここから書く */
+
+body {
+  color: white;
+}
+
+.main-box {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.blue {
+  background-color: #141f40;
+  height: 100px;
+  width: 400px;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.green {
+  background-color: #80bfa8;
+  width: 150px;
+  height: 250px;
+}
+
+.right-box {
+  width: 250px;
+}
+
+.left {
+  width: 150px;
+}
+
+.yellow {
+  background-color: #dbd400;
+  height: 50px;
+  display: flex;
+}
+
+.lightblue {
+  background-color: #0093b7;
+  height: 100px;
+}
+
+.peach {
+  background-color: #ff9e6b;
+  width: 100px;
+  height: 150px;
+}
+
+.red {
+  background-color: #8c2727;
+  height: 100px;
+}
+
+.orange {
+  background-color: #d98d30;
+  height: 100px;
+}
